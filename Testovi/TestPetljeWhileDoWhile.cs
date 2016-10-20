@@ -19,7 +19,7 @@ namespace Vsite.CSharp.Testovi
             while (!cw.IsEmpty)
             {
                 string unos = cw.GetString();
-                string početak = $"{n}. pokušaj: ";
+                string početak = "{n}. pokušaj: ";
                 Assert.IsTrue(unos.StartsWith(početak));
                 string broj = unos.Substring(početak.Length);
                 int i = int.Parse(broj);

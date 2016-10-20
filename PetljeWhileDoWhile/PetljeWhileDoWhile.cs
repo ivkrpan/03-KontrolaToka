@@ -29,9 +29,9 @@ namespace Vsite.CSharp
 
             {
                 int bacanje = generatorSlučajnih.Next(1, 7); // generira slučajni broj između 1 i 6
-                Console.WriteLine($"Bacanje: {bacanje}");
+                Console.WriteLine("Bacanje: {bacanje}");
                 brojPređenihPolja += bacanje;
-                Console.WriteLine($"Ukupno: {brojPređenihPolja}");
+                Console.WriteLine("Ukupno: {brojPređenihPolja}");
             }
             return brojPređenihPolja;
         }
