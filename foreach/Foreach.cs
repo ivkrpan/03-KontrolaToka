@@ -8,8 +8,9 @@ namespace Vsite.CSharp
     {
         public static void Ispiši(IEnumerable kolekcija)
         {
-            // TODO: Napisati foreach petlju tako da ispisuje sve članove kolekcije
-
+            //  Napisati foreach petlju tako da ispisuje sve članove kolekcije
+            foreach (var chlan in kolekcija)
+                Console.WriteLine(chlan);
         }
 
         public static void Main(string[] args)
